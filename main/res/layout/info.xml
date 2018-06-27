@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Waiting"
+        android:textSize="17sp"
+        android:ems="10"
+        android:id="@+id/latText"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Waiting"
+        android:textSize="17sp"
+        android:ems="10"
+        android:id="@+id/lonText"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:text="Get location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getLocationBtn"
+        android:layout_margin="10dp"
+        android:onClick="uplat1" />
+
+    <Button
+        android:text="Update Lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Uplat"
+        android:layout_margin="10dp"
+        android:onClick="uplat1" />
+
+    <Button
+        android:text="update lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uplon"
+        android:layout_margin="15dp"
+        android:onClick="uplon1" />
+
+
+    <Button
+        android:text="bpm graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bpmv"
+        android:layout_margin="15dp"
+        android:onClick="bpmup" />
+
+    <Button
+        android:text="Temp graph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempv"
+        android:layout_margin="15dp"
+        android:onClick="tempup" />
+
+    <Button
+        android:text="medicine file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/medicsv"
+        android:layout_margin="15dp"
+        android:onClick="medicsvdl" />
+</LinearLayout>
